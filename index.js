@@ -1,19 +1,4 @@
-function CustomHeader() {
-  return (
-    <h1>Header</h1>
-  )
-}
-
-function MainContent() {
-    return (
-      <p>Body</p>
-    )
-}
-
-ReactDOM.render(
-<div>
-    <CustomHeader />
-    <MainContent />
-</div>,
-document.getElementById("root")
-)
+const h1 = document.createElement('h1');
+h1.textContent = "Hello!"
+h1.className = "header"
+document.getElementById("root").append(h1)
