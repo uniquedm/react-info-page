@@ -1,12 +1,14 @@
-// const h1 = document.createElement('h1');
-// h1.textContent = "Hello!"
-// h1.className = "header"
-// document.getElementById("root").append(h1)
-
-//JSX
-ReactDOM.render(
-    <h1 className="header">
-        Hello!
-    </h1>,
-    document.getElementById("root")
-)
+function CustomNav() {
+    return (
+        <nav>
+            <h1>React App</h1>
+            <ul>
+                <li>Pricing</li>
+                <li>About</li>
+                <li>Contact</li>
+            </ul>
+        </nav>
+    )
+}
+const root = ReactDOM.createRoot(document.getElementById("root"))
+root.render(<CustomNav/>)
