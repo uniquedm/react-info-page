@@ -1,4 +1,19 @@
-ReactDOM.render(<ul>
-    <li>Item 1</li>
-    <li>Item 2</li>
-</ul>, document.getElementById("root"))
+function CustomHeader() {
+  return (
+    <h1>Header</h1>
+  )
+}
+
+function MainContent() {
+    return (
+      <p>Body</p>
+    )
+}
+
+ReactDOM.render(
+<div>
+    <CustomHeader />
+    <MainContent />
+</div>,
+document.getElementById("root")
+)
