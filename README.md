@@ -1,2 +1,2 @@
 # react-info-page
-Static Page made with ReactJS
+Static [Page](https://uniquedm.github.io/react-info-page/) made with ReactJS
