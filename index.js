@@ -10,5 +10,14 @@ function CustomNav() {
         </nav>
     )
 }
+function MainContent() {
+    return (
+        <p>Main Body</p>
+    )
+}
 const root = ReactDOM.createRoot(document.getElementById("root"))
-root.render(<CustomNav/>)
+root.render(
+<div>
+    <CustomNav/>
+    <MainContent/>
+</div>)
