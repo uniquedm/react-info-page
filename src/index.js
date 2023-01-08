@@ -1,20 +1,17 @@
-import React from 'react';
-import ReactDOM from 'react-dom/client';
-import './index.css';
-import logo from './images/react-icon.png'
+import React from "react"
+import ReactDOM from "react-dom/client"
 
-const page = (
-  <>
-    <img width='100px' alt='React Logo' src={logo}/>
-    <h1>Fun Facts about React</h1>
-    <ul>
-      <li>Released in 2013</li>
-      <li>Created by Jordan Walke</li>
-      <li>Maintained by Facebook</li>
-      <li>Powers thousands of enterprise apps</li>
-    </ul>
-  </>
-)
+function SampleComponent() {
+  return (
+    <>
+      <ul>
+        <li>Item 1</li>
+        <li>Item 2</li>
+        <li>Item 3</li>
+      </ul>
+    </>
+  )
+}
 
-const root = ReactDOM.createRoot(document.getElementById('root'));
-root.render(page);
+const root = ReactDOM.createRoot(document.getElementById("root"));
+root.render(<SampleComponent />);
