@@ -15,7 +15,7 @@ function Header() {
 function Footer() {
   return (
     <footer>
-      © 2023 Development. All rights reserved.
+      <small>© 2023 Development. All rights reserved.</small>
     </footer>
   )
 }
@@ -23,6 +23,7 @@ function Footer() {
 function MainContent() {
   return (
     <>
+      <h1>Fews things</h1>
       <ol>
         <li>React</li>
         <li>JSX</li>
