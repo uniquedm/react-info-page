@@ -18,9 +18,13 @@ code {
 }
 
 .nav {
+  font-family: Roboto;
   display: flex;
   justify-content: space-between;
   align-items: center;
+  background-color: rgb(32, 35, 42);
+  color: rgb(97, 218, 251);
+  padding: 10px;
 }
 
 .nav-items > li {
@@ -28,6 +32,22 @@ code {
 }
 
 .nav-logo {
-  width: 100px;
+  width: 50px;
   align-items: center;
+}
+
+.footer {
+  position: fixed;
+  left: 0;
+  bottom: 0;
+  width: 100%;
+  background-color: rgb(32, 35, 42);
+  color: rgb(97, 218, 251);
+  font-family: "Roboto Condensed";
+  text-align: center;
+}
+
+.content {
+  font-family: "Roboto Condensed";
+  font-size: smaller;
 }
