@@ -13,6 +13,18 @@ body {
 .content {
     background-color: #282c34;
     color: white;
+    margin-left: 1%;
+}
+
+.ul {
+    list-style-type: none;
+}
+
+.ul > li::before {
+    font-weight: 400;
+    margin: 1%;
+    color: rgb(97, 218, 251);
+    content: "\2022";
 }
 
 .logo {
@@ -23,8 +35,12 @@ body {
 
 .project {
     font-family: 'Inter', sans-serif;
-    font-weight: 100;
+    font-weight: 600;
     margin-left: auto;
     margin-right: 1%;
     color: white;
+}
+
+.logo-text {
+    font-weight: 700;
 }
