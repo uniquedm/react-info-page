@@ -2,6 +2,9 @@ body {
     font-family: 'Inter', sans-serif;
     background-color: #282c34;
     margin: 0px;
+    background-image: url("~/public/logo512.png");
+    background-position: right 75%;
+    background-repeat: no-repeat;
 }
 
 .nav {
