@@ -1,22 +1,39 @@
+* {
+    box-sizing: border-box;
+}
+
 body {
     font-family: 'Inter', sans-serif;
-    background-color: #282c34;
     margin: 0px;
-    background-image: url("~/public/logo512.png");
-    background-position: right 75%;
-    background-repeat: no-repeat;
+    background-color: #282D35;
 }
 
 .nav {
     display: flex;
-    background-color: rgb(32, 35, 42);
+    align-items: center;
+    background-color: #21222A;
     color: rgb(97, 218, 251);
+    padding: 0.5% 0.5%;
 }
 
 .content {
-    background-color: #282c34;
     color: white;
-    margin-left: 1%;
+    padding: 1% 1.5%;
+    margin: 0;
+    background-image: url("./bg.png");
+    background-position: right 75%;
+    background-repeat: no-repeat;
+}
+
+.content--title {
+    margin: 0;
+    font-size: 39px;
+    letter-spacing: -.05em;
+}
+
+.ul > li {
+    padding-block: 0.5%;
+    max-width: fit-content;
 }
 
 .ul > li::marker {
@@ -25,9 +42,8 @@ body {
 }
 
 .logo {
-    width: 50px;
-    height: 50px;
-    padding: .5%;
+    width: 26px;
+    height: 25px;
 }
 
 .project {
@@ -40,4 +56,5 @@ body {
 
 .logo-text {
     font-weight: 700;
+    padding-left: .2%;
 }
